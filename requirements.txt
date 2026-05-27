@@ -162,3 +162,15 @@ requests>=2.32.0
 
 # Numpy: operações matemáticas e arrays
 numpy>=1.26.0
+
+# Motor dos modelos de IA locais
+torch>=2.3.0
+
+# Busca ultra-rápida em vetores
+faiss-cpu>=1.8.0
+
+# Captura áudio do microfone
+pyaudio>=0.2.14
+
+# Lê e extrai dados de páginas HTML
+beautifulsoup4>=4.12.0
