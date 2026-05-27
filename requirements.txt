@@ -1,0 +1,164 @@
+# ================================================
+# JARVIS AI — Dependências do Projeto
+# ================================================
+# Instale tudo de uma vez com:
+#   pip install -r requirements.txt
+# ================================================
+
+
+# -----------------------------------------------
+# 🤖 INTELIGÊNCIA ARTIFICIAL
+# -----------------------------------------------
+
+# LangChain: une vários modelos de IA num só lugar
+langchain>=0.2.0
+langchain-community>=0.2.0
+langchain-openai>=0.1.0
+
+# OpenAI: acesso ao GPT-4 via API
+openai>=1.30.0
+
+# Anthropic: acesso ao Claude via API
+anthropic>=0.28.0
+
+# Google Gemini: acesso ao Gemini via API
+google-generativeai>=0.7.0
+
+# Ollama: roda modelos 100% local (Llama, Mistral...)
+ollama>=0.2.0
+
+# SentenceTransformers: transforma frases em vetores
+# para o JARVIS entender o significado das palavras
+sentence-transformers>=3.0.0
+
+
+# -----------------------------------------------
+# 🗄️ BANCO DE DADOS E MEMÓRIA
+# -----------------------------------------------
+
+# ChromaDB: banco vetorial — onde o JARVIS guarda lembranças
+chromadb>=0.5.0
+
+# SQLAlchemy: trabalha com banco de dados SQL
+sqlalchemy>=2.0.0
+
+# Alembic: controla mudanças no banco (tipo git pro banco)
+alembic>=1.13.0
+
+# Redis: banco em RAM — ultra-rápido para dados temporários
+redis>=5.0.0
+
+
+# -----------------------------------------------
+# 🌐 API E SERVIDOR WEB
+# -----------------------------------------------
+
+# FastAPI: cria APIs web modernas e rápidas
+fastapi>=0.111.0
+
+# Uvicorn: servidor que roda o FastAPI
+uvicorn[standard]>=0.30.0
+
+# WebSockets: comunicação em tempo real
+websockets>=12.0
+
+# HTTPX: faz requisições HTTP assíncronas
+httpx>=0.27.0
+
+# Pydantic: valida e organiza dados
+pydantic>=2.7.0
+pydantic-settings>=2.3.0
+
+# python-dotenv: carrega variáveis do .env
+python-dotenv>=1.0.0
+
+
+# -----------------------------------------------
+# 🎙️ VOZ
+# -----------------------------------------------
+
+# SpeechRecognition: converte fala em texto
+SpeechRecognition>=3.10.0
+
+# Whisper: reconhecimento de fala da OpenAI (funciona offline!)
+openai-whisper>=20231117
+
+# Pyttsx3: faz o JARVIS falar sem internet
+pyttsx3>=2.90
+
+# ElevenLabs: voz ultra-realista via API
+elevenlabs>=1.2.0
+
+# Sounddevice: reproduz e grava áudio
+sounddevice>=0.4.6
+
+
+# -----------------------------------------------
+# 👁️ VISÃO COMPUTACIONAL
+# -----------------------------------------------
+
+# OpenCV: processamento de imagens e vídeo
+opencv-python>=4.9.0
+
+# Pillow: manipula imagens
+Pillow>=10.3.0
+
+# PyAutoGUI: captura tela e controla mouse/teclado
+pyautogui>=0.9.54
+
+# Pytesseract: reconhece texto em imagens (OCR)
+pytesseract>=0.3.10
+
+
+# -----------------------------------------------
+# ⚙️ AUTOMAÇÃO
+# -----------------------------------------------
+
+# Psutil: monitora CPU, memória, disco, processos
+psutil>=5.9.0
+
+# Keyboard: detecta e simula teclas
+keyboard>=0.13.5
+
+# Watchdog: monitora mudanças em arquivos e pastas
+watchdog>=4.0.0
+
+# APScheduler: agendador de tarefas avançado
+APScheduler>=3.10.0
+
+
+# -----------------------------------------------
+# 🔐 SEGURANÇA
+# -----------------------------------------------
+
+# Cryptography: criptografa dados sensíveis
+cryptography>=42.0.0
+
+# PyJWT: cria e valida tokens de autenticação
+PyJWT>=2.8.0
+
+# Bcrypt: criptografa senhas de forma segura
+bcrypt>=4.1.0
+
+
+# -----------------------------------------------
+# 🛠️ UTILITÁRIOS
+# -----------------------------------------------
+
+# Rich: terminal bonito com cores e tabelas
+rich>=13.7.0
+
+# Loguru: sistema de logs avançado e colorido
+loguru>=0.7.0
+
+# Click: cria comandos de terminal de forma elegante
+click>=8.1.0
+
+# Aiofiles: lê e escreve arquivos de forma assíncrona
+aiofiles>=23.2.0
+
+# Requests: faz requisições HTTP simples
+requests>=2.32.0
+
+# Numpy: operações matemáticas e arrays
+numpy>=1.26.0
